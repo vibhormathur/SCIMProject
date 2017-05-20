@@ -1,0 +1,4 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(C:\scala-workspace\SCIM-master\conf\application.conf,C:\scala-workspace\SCIM-master\target\scala-2.11\classes\application.conf)[0m
+[0m[[0mdebug[0m] [0m	(C:\scala-workspace\SCIM-master\conf\logback.xml,C:\scala-workspace\SCIM-master\target\scala-2.11\classes\logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(C:\scala-workspace\SCIM-master\conf\routes,C:\scala-workspace\SCIM-master\target\scala-2.11\classes\routes)[0m

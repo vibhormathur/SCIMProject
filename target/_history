@@ -1,0 +1,4 @@
+build.sbt
+compile
+run
+eclipse

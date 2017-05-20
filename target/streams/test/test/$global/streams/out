@@ -1,0 +1,179 @@
+[0m[[0mdebug[0m] [0mjavaOptions: List(-Djna.nosys=true)[0m
+[0m[[0mdebug[0m] [0mForking tests - parallelism = false[0m
+[0m[[0mdebug[0m] [0mCreate a single-thread test executor[0m
+[0m[[0mdebug[0m] [0mRunner for org.scalatest.tools.Framework produced 2 initial tasks for 2 tests.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(IntegrationSpec, sbt.ForkMain$SubclassFingerscan@2c9d42d, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mIntegrationSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mApplication[0m[0m
+[0m[[0minfo[0m] [0m[32m- should work from within a browser[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(ApplicationSpec, sbt.ForkMain$SubclassFingerscan@64e18968, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mApplicationSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mRoutes[0m[0m
+[0m[[0minfo[0m] [0m[32m- should send 404 on a bad request[0m[0m
+[0m[[0minfo[0m] [0m[32mHomeController[0m[0m
+[0m[[0minfo[0m] [0m[32m- should render the index page[0m[0m
+[0m[[0minfo[0m] [0m[32mSCIMController[0m[0m
+[0m[[0minfo[0m] [0m[31m- should return requested json *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  "[0m[0m
+[0m[[0minfo[0m] [0m  [0m
+[0m[[0minfo[0m] [0m[31m  <!DOCTYPE html>[0m[0m
+[0m[[0minfo[0m] [0m[31m  <html lang="en">[0m[0m
+[0m[[0minfo[0m] [0m[31m      <head>[0m[0m
+[0m[[0minfo[0m] [0m[31m          <title>Action Not Found</title>[0m[0m
+[0m[[0minfo[0m] [0m[31m          <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAlFJREFUeNqUU8tOFEEUPVVdNV3dPe8xYRBnjGhmBgKjKzCIiQvBoIaNbly5Z+PSv3Aj7DSiP2B0rwkLGVdGgxITSCRIJGSMEQWZR3eVt5sEFBgTb/dN1yvnnHtPNTPG4PqdHgCMXnPRSZrpSuH8vUJu4DE4rYHDGAZDX62BZttHqTiIayM3gGiXQsgYLEvATaqxU+dy1U13YXapXptpNHY8iwn8KyIAzm1KBdtRZWErpI5lEWTXp5Z/vHpZ3/wyKKwYGGOdAYwR0EZwoezTYApBEIObyELl/aE1/83cp40Pt5mxqCKrE4Ck+mVWKKcI5tA8BLEhRBKJLjez6a7MLq7XZtp+yyOawwCBtkiBVZDKzRk4NN7NQBMYPHiZDFhXY+p9ff7F961vVcnl4R5I2ykJ5XFN7Ab7Gc61VoipNBKF+PDyztu5lfrSLT/wIwCxq0CAGtXHZTzqR2jtwQiXONma6hHpj9sLT7YaPxfTXuZdBGA02Wi7FS48YiTfj+i2NhqtdhP5RC8mh2/Op7y0v6eAcWVLFT8D7kWX5S9mepp+C450MV6aWL1cGnvkxbwHtLW2B9AOkLeUd9KEDuh9fl/7CEj7YH5g+3r/lWfF9In7tPz6T4IIwBJOr1SJyIGQMZQbsh5P9uBq5VJtqHh2mo49pdw5WFoEwKWqWHacaWOjQXWGcifKo6vj5RGS6zykI587XeUIQDqJSmAp+lE4qt19W5P9o8+Lma5DcjsC8JiT607lMVkdqQ0Vyh3lHhmh52tfNy78ajXv0rgYzv8nfwswANuk+7sD/Q0aAAAAAElFTkSuQmCC">[0m[0m
+[0m[[0minfo[0m] [0m[31m          <style>[0m[0m
+[0m[[0minfo[0m] [0m[31m              html, body, pre {[0m[0m
+[0m[[0minfo[0m] [0m[31m                  margin: 0;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  padding: 0;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  font-family: Monaco, 'Lucida Console', monospace;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  background: #ECECEC;[0m[0m
+[0m[[0minfo[0m] [0m[31m              }[0m[0m
+[0m[[0minfo[0m] [0m[31m              h1 {[0m[0m
+[0m[[0minfo[0m] [0m[31m                  margin: 0;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  background: #AD632A;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  padding: 20px 45px;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  color: #fff;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  text-shadow: 1px 1px 1px rgba(0,0,0,.3);[0m[0m
+[0m[[0minfo[0m] [0m[31m                  border-bottom: 1px solid #9F5805;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  font-size: 28px;[0m[0m
+[0m[[0minfo[0m] [0m[31m              }[0m[0m
+[0m[[0minfo[0m] [0m[31m              p#detail {[0m[0m
+[0m[[0minfo[0m] [0m[31m                  margin: 0;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  padding: 15px 45px;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  background: #F6A960;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  border-top: 4px solid #D29052;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  color: #733512;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  text-shadow: 1px 1px 1px rgba(255,255,255,.3);[0m[0m
+[0m[[0minfo[0m] [0m[31m                  font-size: 14px;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  border-bottom: 1px solid #BA7F5B;[0m[0m
+[0m[[0minfo[0m] [0m[31m              }[0m[0m
+[0m[[0minfo[0m] [0m[31m              h2 {[0m[0m
+[0m[[0minfo[0m] [0m[31m                  margin: 0;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  padding: 5px 45px;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  font-size: 12px;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  background: #333;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  color: #fff;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  text-shadow: 1px 1px 1px rgba(0,0,0,.3);[0m[0m
+[0m[[0minfo[0m] [0m[31m                  border-top: 4px solid #2a2a2a;[0m[0m
+[0m[[0minfo[0m] [0m[31m              }[0m[0m
+[0m[[0minfo[0m] [0m[31m              pre {[0m[0m
+[0m[[0minfo[0m] [0m[31m                  margin: 0;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  border-bottom: 1px solid #DDD;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  text-shadow: 1px 1px 1px rgba(255,255,255,.5);[0m[0m
+[0m[[0minfo[0m] [0m[31m                  position: relative;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  font-size: 12px;[0m[0m
+[0m[[0minfo[0m] [0m[31m              }[0m[0m
+[0m[[0minfo[0m] [0m[31m              pre span.line {[0m[0m
+[0m[[0minfo[0m] [0m[31m                  text-align: right;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  display: inline-block;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  padding: 5px 5px;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  width: 30px;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  background: #D6D6D6;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  color: #8B8B8B;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  text-shadow: 1px 1px 1px rgba(255,255,255,.5);[0m[0m
+[0m[[0minfo[0m] [0m[31m                  font-weight: bold;[0m[0m
+[0m[[0minfo[0m] [0m[31m              }[0m[0m
+[0m[[0minfo[0m] [0m[31m              pre span.route {[0m[0m
+[0m[[0minfo[0m] [0m[31m                  padding: 5px 5px;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  position: absolute;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  right: 0;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  left: 40px;[0m[0m
+[0m[[0minfo[0m] [0m[31m              }[0m[0m
+[0m[[0minfo[0m] [0m[31m              pre span.route span.verb {[0m[0m
+[0m[[0minfo[0m] [0m[31m                  display: inline-block;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  width: 5%;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  min-width: 50px;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  overflow: hidden;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  margin-right: 10px;[0m[0m
+[0m[[0minfo[0m] [0m[31m              }[0m[0m
+[0m[[0minfo[0m] [0m[31m              pre span.route span.path {[0m[0m
+[0m[[0minfo[0m] [0m[31m                  display: inline-block;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  width: 30%;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  min-width: 200px;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  overflow: hidden;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  margin-right: 10px;[0m[0m
+[0m[[0minfo[0m] [0m[31m              }[0m[0m
+[0m[[0minfo[0m] [0m[31m              pre span.route span.call {[0m[0m
+[0m[[0minfo[0m] [0m[31m                  display: inline-block;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  width: 50%;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  overflow: hidden;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  margin-right: 10px;[0m[0m
+[0m[[0minfo[0m] [0m[31m              }[0m[0m
+[0m[[0minfo[0m] [0m[31m              pre:first-child span.route {[0m[0m
+[0m[[0minfo[0m] [0m[31m                  border-top: 4px solid #CDCDCD;[0m[0m
+[0m[[0minfo[0m] [0m[31m              }[0m[0m
+[0m[[0minfo[0m] [0m[31m              pre:first-child span.line {[0m[0m
+[0m[[0minfo[0m] [0m[31m                  border-top: 4px solid #B6B6B6;[0m[0m
+[0m[[0minfo[0m] [0m[31m              }[0m[0m
+[0m[[0minfo[0m] [0m[31m              pre.error span.line {[0m[0m
+[0m[[0minfo[0m] [0m[31m                  background: #A31012;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  color: #fff;[0m[0m
+[0m[[0minfo[0m] [0m[31m                  text-shadow: 1px 1px 1px rgba(0,0,0,.3);[0m[0m
+[0m[[0minfo[0m] [0m[31m              }[0m[0m
+[0m[[0minfo[0m] [0m[31m          </style>[0m[0m
+[0m[[0minfo[0m] [0m[31m      </head>[0m[0m
+[0m[[0minfo[0m] [0m[31m      <body>[0m[0m
+[0m[[0minfo[0m] [0m[31m          <h1>Action Not Found</h1>[0m[0m
+[0m[[0minfo[0m] [0m  [0m
+[0m[[0minfo[0m] [0m[31m          <p id="detail">[0m[0m
+[0m[[0minfo[0m] [0m[31m              For request 'GET /Users/1001'[0m[0m
+[0m[[0minfo[0m] [0m[31m          </p>[0m[0m
+[0m[[0minfo[0m] [0m  [0m
+[0m[[0minfo[0m] [0m          [0m
+[0m[[0minfo[0m] [0m  [0m
+[0m[[0minfo[0m] [0m[31m                  <h2>[0m[0m
+[0m[[0minfo[0m] [0m[31m                      These routes have been tried, in this order:[0m[0m
+[0m[[0minfo[0m] [0m[31m                  </h2>[0m[0m
+[0m[[0minfo[0m] [0m  [0m
+[0m[[0minfo[0m] [0m[31m                  <div>[0m[0m
+[0m[[0minfo[0m] [0m                      [0m
+[0m[[0minfo[0m] [0m[31m                          <pre><span class="line">1</span><span class="route"><span class="verb">GET</span><span class="path">/</span><span class="call">controllers.HomeController.index</span></span></pre>[0m[0m
+[0m[[0minfo[0m] [0m                      [0m
+[0m[[0minfo[0m] [0m[31m                          <pre><span class="line">2</span><span class="route"><span class="verb">GET</span><span class="path">/scim/v2/Users</span><span class="call">controllers.SCIMController.users(filter:Option[String], count:Option[String], startIndex:Option[String])</span></span></pre>[0m[0m
+[0m[[0minfo[0m] [0m                      [0m
+[0m[[0minfo[0m] [0m[31m                          <pre><span class="line">3</span><span class="route"><span class="verb">GET</span><span class="path">/scim/v2/Users/$uid&lt;[^/]+&gt;</span><span class="call">controllers.SCIMController.user(uid:String)</span></span></pre>[0m[0m
+[0m[[0minfo[0m] [0m                      [0m
+[0m[[0minfo[0m] [0m[31m                          <pre><span class="line">4</span><span class="route"><span class="verb">POST</span><span class="path">/scim/v2/Users</span><span class="call">controllers.SCIMController.createUser()</span></span></pre>[0m[0m
+[0m[[0minfo[0m] [0m                      [0m
+[0m[[0minfo[0m] [0m[31m                          <pre><span class="line">5</span><span class="route"><span class="verb">PUT</span><span class="path">/scim/v2/Users/$uid&lt;[^/]+&gt;</span><span class="call">controllers.SCIMController.updateUser(uid:String)</span></span></pre>[0m[0m
+[0m[[0minfo[0m] [0m                      [0m
+[0m[[0minfo[0m] [0m[31m                          <pre><span class="line">6</span><span class="route"><span class="verb">DELETE</span><span class="path">/scim/v2/Users/$uid&lt;[^/]+&gt;</span><span class="call">controllers.SCIMController.deleteUser(uid:String)</span></span></pre>[0m[0m
+[0m[[0minfo[0m] [0m                      [0m
+[0m[[0minfo[0m] [0m[31m                          <pre><span class="line">7</span><span class="route"><span class="verb">GET</span><span class="path">/scim/v2/Groups</span><span class="call">controllers.SCIMController.groups(count:Option[String], startIndex:Option[String])</span></span></pre>[0m[0m
+[0m[[0minfo[0m] [0m                      [0m
+[0m[[0minfo[0m] [0m[31m                          <pre><span class="line">8</span><span class="route"><span class="verb">GET</span><span class="path">/scim/v2/Groups/$groupId&lt;[^/]+&gt;</span><span class="call">controllers.SCIMController.group(groupId:String)</span></span></pre>[0m[0m
+[0m[[0minfo[0m] [0m                      [0m
+[0m[[0minfo[0m] [0m[31m                          <pre><span class="line">9</span><span class="route"><span class="verb">PATCH</span><span class="path">/scim/v2/Groups/$groupId&lt;[^/]+&gt;</span><span class="call">controllers.SCIMController.patchGroup(groupId:String)</span></span></pre>[0m[0m
+[0m[[0minfo[0m] [0m                      [0m
+[0m[[0minfo[0m] [0m[31m                          <pre><span class="line">10</span><span class="route"><span class="verb">GET</span><span class="path">/assets/$file&lt;.+&gt;</span><span class="call">controllers.Assets.versioned(path:String = &quot;/public&quot;, file:Asset)</span></span></pre>[0m[0m
+[0m[[0minfo[0m] [0m                      [0m
+[0m[[0minfo[0m] [0m[31m                  </div>[0m[0m
+[0m[[0minfo[0m] [0m  [0m
+[0m[[0minfo[0m] [0m              [0m
+[0m[[0minfo[0m] [0m  [0m
+[0m[[0minfo[0m] [0m[31m      </body>[0m[0m
+[0m[[0minfo[0m] [0m[31m  </html>[0m[0m
+[0m[[0minfo[0m] [0m  [0m
+[0m[[0minfo[0m] [0m  [0m
+[0m[[0minfo[0m] [0m  [0m
+[0m[[0minfo[0m] [0m  [0m
+[0m[[0minfo[0m] [0m  [0m
+[0m[[0minfo[0m] [0m  [0m
+[0m[[0minfo[0m] [0m  [0m
+[0m[[0minfo[0m] [0m[31m  " did not include substring "{"user_name": "VM"}" (ApplicationSpec.scala:50)[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 3 events.[0m
+[0m[[0mdebug[0m] [0mRunner for com.novocode.junit.JUnitFramework produced 0 initial tasks for 0 tests.[0m
+[0m[[0minfo[0m] [0mScalaTest[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 15 seconds, 132 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 4[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 3, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0mdebug[0m] [0mSummary for JUnit not available.[0m
+[0m[[31merror[0m] [0mFailed: Total 4, Failed 1, Errors 0, Passed 3[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	IntegrationSpec[0m
+[0m[[31merror[0m] [0mFailed tests:[0m
+[0m[[31merror[0m] [0m	ApplicationSpec[0m
+[0m[[31merror[0m] [0m(test:[31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
